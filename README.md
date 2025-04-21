@@ -1,10 +1,13 @@
 # RAG chatbot
 This repository implements Retrieval-Augmented Generation for Paul Graham's essays. Users can ask one question (`one_shot/`) or interactively ask multiple questions (`multi_shot/`). The LLM being used is Gemini.
 
+Python dependencies can be found in each subdirectory's `install.sh` file.
+
 Directories:
 * `data/`: contains the web scraping script to obtain all of Paul Graham's essays.
 * `one_shot/`: can only ask one question (and receive one answer).
-* `multi_shot/`: can interactively ask multiple questions. Use streamlit to run code, i.e. `streamlit run interactive.py`
+* `multi_shot/`: can interactively ask multiple questions.
+    * Use Streamlit to run code, i.e. `streamlit run interactive.py`
 
 <figure style="text-align: center;">
   <img src="multi_shot/chatbot.png" alt="Diagram" width="400">
