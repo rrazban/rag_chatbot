@@ -1,6 +1,10 @@
 '''
 Script to scrape all essays from Paul Graham's website. 
-Output is saved as 'pg_essays.json'. 
+Output is saved as 'test_pg_essays.json'. 
+
+If you want to change what is inputted to the chatbots in
+`one_shot/` or `multi_shot/`, overwrite the 
+`pg_essays.json' file.
 
 '''
 
