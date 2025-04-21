@@ -6,5 +6,10 @@ Directories:
 * `one_shot/`: can only ask one question (and receive one answer).
 * `multi_shot/`: can interactively ask multiple questions. Use streamlit to run code, i.e. `streamlit run interactive.py`
 
+<figure style="text-align: center;">
+  <img src="multi_shot/chatbot.png" alt="Diagram" width="400">
+  <figcaption><em>Figure: Chatbot answering the user-inputted question: "How can I have a fulfilling career?"</em></figcaption>
+</figure>
+
 ---
-Acknowledgments: The impetus for creating this chatbot was from completing a worksheet titled, "Understanding and Applying LLMs" by Mobolaji Williams. Gemini and ChatGPT were used to help write the code.
+Acknowledgments: The impetus for this project stems from completing a worksheet titled, "Understanding and Applying LLMs" by Mobolaji Williams. Gemini and ChatGPT were used to help write the code.
